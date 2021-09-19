@@ -1,0 +1,81 @@
+
+.box{
+    width: 75%;
+    height: 95%;
+    margin: auto;
+    border: 1px ridge rgba(30, 241, 30, 0.6);
+    box-shadow: 0px 0px 4px 4px rgba(65, 75, 61, 0.589);
+    font-family: Comic Sans MS, Comic Sans, cursive;  
+    
+}
+.in-box{
+    display:flex;
+    flex-direction: row-reverse;
+    background-color: rgba(34, 168, 235, 0.568);
+}
+main{
+    margin-bottom: 0;
+    width: 60%;
+    height: 100%; 
+    background-color: rgb(255, 255, 255);
+   
+}
+aside {
+    margin-bottom: 0;
+    width: 40%;
+    height: 100%;
+    /* background-color: rgba(34, 168, 235, 0.568); */
+    color: cornsilk; 
+}
+footer {
+    display: flex;
+    justify-content: space-between;
+    clear: both;
+    margin-bottom: 0;
+    background-color:#913838;
+  }
+
+h3 {
+    color: rgb(73, 37, 107);
+}
+
+.start-cv{
+    margin: 10%;
+    font-size: 30px;
+    text-align: center;
+    font-family: "Lucida Console", Courier, monospace;
+}
+.code-example pre{
+    background-color: rgba(76, 161, 76, 0.068);
+    font-style: italic;
+}
+.experience{
+    margin-bottom: 10px;
+}
+.contacts{
+    margin: 3%;
+    background-color: rgba(53, 172, 53, 0.507);
+    border-radius: 10%;
+}
+.contacts h3{
+    text-align: center;
+}
+.education{
+    margin: 3%;
+    padding-bottom: 3%;
+    background-color: rgba(76, 161, 76, 0.507);
+    border-radius: 10%;
+
+}
+.education h3{
+    text-align: center;
+}
+.language{
+    margin: 3%;
+    padding-bottom: 3%;
+    background-color: rgba(76, 161, 76, 0.507);
+    border-radius: 10%;
+}
+.language h3{
+    text-align: center;
+}
